@@ -1,0 +1,38 @@
+fieldset{
+	width: 500px;
+
+}
+
+
+body div {
+	width: 500px;
+	
+}
+input[type=text]{
+	margin-left: 20px;
+}
+
+.lista {
+	width: 200px;
+	float: left;
+}
+#indice {
+	background-color: #F2E3A7;	
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+#ejercicio  {
+	background-color: #9BF2C4;
+	font-family: Bookman, serif;
+}
+
+.container {
+  max-width:500px;
+  min-height: 50px;
+  margin:0 auto;
+  text-align:center;
+  -webkit-border-radius:6px;
+  -moz-border-radius:6px;
+  border-radius:6px;
+  background-color:#FAFAFA;
+}
