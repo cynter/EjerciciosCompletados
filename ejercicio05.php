@@ -97,11 +97,9 @@
 			echo "Numero no aceptado";
 		}
 
-		 $decena." ".$unidad;
-
-
-
-
+		echo "Numero: " . $num;
+		echo "<br />";
+		echo $decena." ".$unidad;
 	?>
 	</div>	
 	<p><a href="index.php">Volver</a></p>	

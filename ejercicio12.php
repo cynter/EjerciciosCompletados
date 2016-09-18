@@ -8,19 +8,24 @@
 	<h2> Invertir Palabra </h2>	
 	<div>
 	<?php
-		$palabra = array("H", "o","l","a");
-		
+		$palabra = "Invertime";
+		$arr = str_split($palabra);
 
 		function invertirArray ($array) {
 			$aux = array();
 			for ($i=count($array)-1; $i >=0 ; $i--) { 
 				array_push($aux, $array[$i]);
 			}
-			var_dump($aux);
+			return $aux;
 		}
 
+		
+		$palabraInvertida = implode("",invertirArray($arr));
 
-		invertirArray($palabra);
+		echo "Derecho : " . $palabra;
+		echo "<br />";
+		echo "Invertido : " . $palabraInvertida;
+		
 	?>
 	</div>	
 	<p><a href="index.php">Volver</a></p>	
