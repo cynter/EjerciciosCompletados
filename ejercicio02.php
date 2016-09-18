@@ -32,13 +32,13 @@
 			}
 
 		}elseif (3 <= $mes && $mes <= 6 ) {
-			if(($dia >=21 && $mes >=3) || ($day <=20 && $mes <=6) )
+			if(($dia >=21 && $mes >=3) || ($dia <=20 && $mes <=6) )
 				echo "Es Otoño";
 			else
 				echo "Es Invierno";
 
 		}	elseif ( 6 <= $mes && $mes <= 9 ) {
-			if(($dia >=21 && $mes >=6) || ($day <=20 && $mes <=9) ) {
+			if(($dia >=21 && $mes >=6) || ($dia <=20 && $mes <=9) ) {
 				echo "Es Invierno";
 			}		
 			else {
